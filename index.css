@@ -1,0 +1,47 @@
+.kalkulyator{ background-color: rgb(75, 75, 146);
+width: 180px;
+height: 310px;
+border-radius: 8px;
+color: aliceblue;
+padding: 1px;
+margin: auto;
+margin-top: 50px;
+}
+.nol{
+    height: 70px;
+    margin: 5px;
+    margin-top: 5px;
+    display: flex;
+justify-content: end;
+background-color:rgb(64, 64, 143) ;
+border-radius: 5px;
+}
+.raqamlar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 5px;
+
+}
+.item{
+    display: grid;
+    background-color: rgb(107, 157, 170);
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    margin:auto;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.it{
+    grid-column: 3/5;
+    width: 83px;
+    background-color: brown;
+}
+body{
+    background-image: linear-gradient(150deg, red ,yellow, green, gray);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
